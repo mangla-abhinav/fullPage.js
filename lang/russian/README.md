@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://github.com/alvarotrigo/fullPage.js/#fullpagejs">English</a> |
   <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/spanish#fullpagejs">Español</a> |
+  <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/french#fullpagejs">Français</a> |
   <span>Pусский</span> |
   <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese#fullpagejs">中文</a> |
   <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/korean#fullpagejs">한국어</a>
@@ -16,14 +17,14 @@
 
 ---
 
-![Версия fullPage.js](http://img.shields.io/badge/fullPage.js-v3.0.8-brightgreen.svg)
+![Версия fullPage.js](http://img.shields.io/badge/fullPage.js-v3.0.9-brightgreen.svg)
 [![Лицензия](https://img.shields.io/badge/License-GPL-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![Перечисление на PayPal](https://img.shields.io/badge/donate-PayPal.me-ff69b4.svg)](https://www.paypal.me/alvarotrigo/9.95)
 [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/fullpage.js/badge?style=rounded)](https://www.jsdelivr.com/package/npm/fullpage.js)
 &nbsp;&nbsp; **|**&nbsp;&nbsp; *7Кб в формате gzip* &nbsp;&nbsp;**|**&nbsp;&nbsp; *Создано [@imac2](https://twitter.com/imac2)*
 
 - [Живое демо](http://alvarotrigo.com/fullPage/) | [Codepen](https://codepen.io/alvarotrigo/pen/NxyPPp)
-- [Wordpress plugin for Gutenberg](https://alvarotrigo.com/fullPage/wordpress-plugin-gutenberg/)
+- [Wordpress plugin for Gutenberg](https://alvarotrigo.com/fullPage/wordpress-plugin-gutenberg/) and [WordPress pluging fo Elementor](https://alvarotrigo.com/fullPage/wordpress-plugin-elementor/)
 - [Тема Wordpress](http://alvarotrigo.com/fullPage/utils/wordpress.html)
 - [Расширения fullpage.js](http://alvarotrigo.com/fullPage/extensions/)
 - [Часто задаваемые вопросы](https://github.com/alvarotrigo/fullPage.js/wiki/FAQ---Frequently-Answered-Questions)
@@ -432,7 +433,7 @@ new fullpage('#fullpage', {
 
 - `normalScrollElements`: (по умолчанию `null`) [Демо](https://codepen.io/alvarotrigo/pen/RmVazM) Если вы хотите избежать автопрокрутки при скроллинге некоторых элементов, вам нужно использовать эту опцию. (пригодится для карт, прокрутки div-элементов и т.д.) Для этого необходима строка с селекторами Javascript для данных элементов. (Например: `normalScrollElements: '#element1, .element2'`). Данную опцию следует применять к самим разделам/слайдам.
 
-- `bigSectionsDestination`: (по умолчанию `null`) Определяет, как должна осуществляться прокрутка к разделу, размер которого превышает размер окна просмотра. По умолчанию fullPage.js пролистывает вверх, если вы попадаете из раздела над заданным, и вниз, если вы попадаете из раздела под заданным. Возможные значения: `top`, `bottom`, `null`.
+- `bigSectionsDestination`: (по умолчанию `null`) [Демо](https://codepen.io/alvarotrigo/pen/vYLdMrx) Определяет, как должна осуществляться прокрутка к разделу, размер которого превышает размер окна просмотра. По умолчанию fullPage.js пролистывает вверх, если вы попадаете из раздела над заданным, и вниз, если вы попадаете из раздела под заданным. Возможные значения: `top`, `bottom`, `null`.
 
 - `keyboardScrolling`: (по умолчанию `true`) Определяет возможность навигации на сайте при помощи клавиатуры.
 
@@ -954,15 +955,14 @@ new fullpage('#fullpage', {
 Желаете построить дистрибутивные файлы fullpage.js? Пожалуйста, зайдите в раздел [Задачи по построению](https://github.com/alvarotrigo/fullPage.js/wiki/Build-tasks)
 
 # Ресурсы
-- [Wordpress Plugin for Gutenberg](https://alvarotrigo.com/fullPage/wordpress-plugin-gutenberg/)
+- Wordpress Plugin [for Gutenberg](https://alvarotrigo.com/fullPage/wordpress-plugin-gutenberg/) and [for Elementor](https://alvarotrigo.com/fullPage/wordpress-plugin-elementor/).
 - [Тема Wordpress](https://alvarotrigo.com/fullPage/utils/wordpress.html)
 - [Official Vue.js wrapper component](https://github.com/alvarotrigo/vue-fullpage.js)
 - [Official React.js wrapper component](https://github.com/alvarotrigo/react-fullpage)
 - [Official Angular wrapper component](https://github.com/alvarotrigo/angular-fullpage)
 - [CSS Easing Animation Tool - Matthew Lein](http://matthewlein.com/ceaser/) (поможет в определении значения `easingcss3`)
 - [fullPage.js jsDelivr CDN](https://www.jsdelivr.com/package/npm/fullpage.js)
-- [плагин fullPage.js для October CMS](http://octobercms.com/plugin/freestream-parallax)
-- [плагин wordpress fullPage.js](https://wordpress.org/plugins/wp-fullpage/)
+- [плагин fullPage.js для October CMS](https://github.com/freestream/oc-parallax-plugin)
 - [директива fullPage.js Angular2](https://github.com/meiblorn/ng2-fullpage)
 - [директива fullPage.js angular](https://github.com/hellsan631/angular-fullpage.js)
 - [дополнение ember-cli fullPage.js](https://www.npmjs.com/package/ember-cli-fullpagejs)
@@ -973,8 +973,9 @@ new fullpage('#fullpage', {
 ## Кто пользуется fullPage.js
 Если вы хотите, чтобы ваша страница была указана в этом списке, пожалуйста, <a href="mailto:alvaro@alvarotrigo.com">свяжитесь со мной</a> и пришлите URL.
 
+
 [![Google](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/google-4.png)](http://www.yourprimer.com/)
-[![Coca-cola](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/cocacola-4.png)](https://www.coca-colacompany.com/annual-review/2017/index.html)
+![Coca-cola](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/cocacola-4.png)
 ![eBay](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/ebay-4.png)
 [![BBC](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/bbc-4.png)](http://www.bbc.co.uk/news/resources/idt-d88680d1-26f2-4863-be95-83298fd01e02)
 ![Sony](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/sony-4.png)
@@ -983,13 +984,13 @@ new fullpage('#fullpage', {
 ![British Airways](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/british-airways-5.png)
 ![McDonalds](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/mcdonalds-6.png)
 ![EA](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/ea-6.png)
-[![Vogue](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/vogue-6.png)](http://www.vogue.fr/chaumet-histoires-de-liens)
+![Vogue](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/vogue-6.png)
 ![Mi](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/mi-6.png)
 
-[![Mercedes](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/mercedes-5.png)](https://www.x-class.com.au/)
+![Mercedes](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/mercedes-5.png)
 [![sym](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/sym-5.png)](http://www.sanyang.com.tw/service/Conception/)
 ![Bugatti](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/bugatti-5.png)
-[![eDarling](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/edarling-5.png)](https://www.edarling.de/)
+![eDarling](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/edarling-5.png)
 ![Ubisoft](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/ubisoft-5.png)
 
 
@@ -999,31 +1000,20 @@ new fullpage('#fullpage', {
 - http://www.shootinggalleryasia.com/
 - http://medoff.ua/en/
 - http://promo.prestigio.com/grace1/
-- http://www.commoditiesdemystified.info/en/
 - http://torchbrowser.com/
 - http://thekorner.fr/
-- https://www.edarling.de/
-- http://urban-walks.com/
-- http://lingualeo.com/
 - http://charlotteaimes.com/
 - http://www.boxreload.com/
 - http://educationaboveall.org/
 - http://usescribe.com/
 - http://boxx.hk/
-- http://rawmilk.dk/en/
-- http://www.famavolat.com/
 - http://www.sanyang.com.tw/service/Conception/
-- http://www.batzaya.net/
-- http://medissix.com/
 - http://trasmissione-energia.terna.it/
-- http://www.thefoodmovie.com/
 - http://www.villareginateodolinda.it
 - http://www.kesstrio.com
 - http://ded-morozz.kiev.ua/
-- http://themify.me/demo/#theme=fullpane
 - http://dancingroad.com
 - http://www.camanihome.com/
-- https://life2film.com/en/
 
 Вы можете найти ещё один список [здесь](http://libscore.com/#$.fn.fullpage).
 

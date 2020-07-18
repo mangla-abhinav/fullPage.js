@@ -5,7 +5,8 @@
 
 <p align="center">
   <a href="https://github.com/alvarotrigo/fullPage.js#fullpagejs">English</a> |
-  <span>Español</span> |
+  <span>Español</span> | 
+  <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/french#fullpagejs">Français</a> |
   <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/russian#fullpagejs">Pусский</a> |
   <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese#fullpagejs">中文</a> |
   <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/korean#fullpagejs">한국어</a>
@@ -17,14 +18,14 @@
 
 ---
 
-![fullPage.js version](http://img.shields.io/badge/fullPage.js-v3.0.8-brightgreen.svg)
+![fullPage.js version](http://img.shields.io/badge/fullPage.js-v3.0.9-brightgreen.svg)
 [![License](https://img.shields.io/badge/License-GPL-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![PayPal Donate](https://img.shields.io/badge/donate-PayPal.me-ff69b4.svg)](https://www.paypal.me/alvarotrigo/9.95)
 [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/fullpage.js/badge?style=rounded)](https://www.jsdelivr.com/package/npm/fullpage.js)
 &nbsp;&nbsp; **|**&nbsp;&nbsp; *7Kb gziped* &nbsp;&nbsp;**|**&nbsp;&nbsp; *Creado por [@imac2](https://twitter.com/imac2)*
 
 - [Demo online](https://alvarotrigo.com/fullPage/) | [Codepen](https://codepen.io/alvarotrigo/pen/NxyPPp)
-- [Wordpress plugin for Gutenberg](https://alvarotrigo.com/fullPage/wordpress-plugin-gutenberg/)
+- [Wordpress plugin for Gutenberg](https://alvarotrigo.com/fullPage/wordpress-plugin-gutenberg/) and [WordPress pluging fo Elementor](https://alvarotrigo.com/fullPage/wordpress-plugin-elementor/)
 - [Template de Wordpress](https://alvarotrigo.com/fullPage/utils/wordpress.html)
 - [Extensiones de fullpage.js](https://alvarotrigo.com/fullPage/extensions/)
 - [Preguntas frecuentes](https://github.com/alvarotrigo/fullPage.js/wiki/FAQ---Frequently-Answered-Questions)
@@ -425,7 +426,7 @@ Otras librerías puede ser usadas si se desea.
 
 - `fitToSectionDelay`: (por defecto `1000`). Si `fitToSection` está activo, esta opción define el tiempo en milisegundos que esperará fullpage.js desde que el usuario dejó de desplazarse hasta que la sección se encaja en la ventana.
 
-- `scrollBar`: (por defecto `false`) Determina si se utiliza la barra de desplazamiento del navegador o no. En caso afirmativo, la funcionalidad de `autoScrolling` (de desplazamiento automático o "a saltos") funcionará como se espera. El usuario será también libre de desplazarse por la página usando la barra de navegación y fullpage.js encajará la sección cuando el desplazamiento cese siempre y cuando se use `fitToSection`.
+- `scrollBar`: (por defecto `false`) Determina si se utiliza la barra de desplazamiento del navegador o no para las **secciones verticales**. En caso afirmativo, la funcionalidad de `autoScrolling` (de desplazamiento automático o "a saltos") funcionará como se espera. El usuario será también libre de desplazarse por la página usando la barra de navegación y fullpage.js encajará la sección cuando el desplazamiento cese siempre y cuando se use `fitToSection`.
 
 - `paddingTop`: (por defecto `0`) Determina el "padding" superior para cada sección con un valor numérico y su unidad de medida (paddingTop: '10px', paddingTop: '10em'...). Útil cuando se usan cabeceras fijas (`fixed`).
 
@@ -435,7 +436,7 @@ Otras librerías puede ser usadas si se desea.
 
 - `normalScrollElements`: (por defecto `null`) [Demostración](https://codepen.io/alvarotrigo/pen/RmVazM) Si quieres evitar el auto desplazamiento (o desplazamiento a saltos) cuando se haga scroll encima de ciertos elementos, ésta es la opción a usar. (Útil para mapas, divs con scroll etc.). Requiere una cadena de texto con el selector de Javascript para dichos elementos.(Por ejemplo: `normalScrollElements: '#element1, .element2'`). Esta opción no debe ser aplicada directamente en las mismas secciones o diapositivas en sí, sino a elementos dentro de ellas.
 
-- `bigSectionsDestination`: (por defecto `null`) Determina cómo desplazarse hacia una sección mayor que la ventana del navegador. Por defecto fullPage.js se desplazará hacia la parte superior de la sección si llegas desde una sección situada por encima y hacia la parte inferior si llegas desde una sección situada por debajo. Los posibles valores para esta opción son:  `top`, `bottom`, `null`.
+- `bigSectionsDestination`: (por defecto `null`) [Demo](https://codepen.io/alvarotrigo/pen/vYLdMrx) Determina cómo desplazarse hacia una sección mayor que la ventana del navegador. Por defecto fullPage.js se desplazará hacia la parte superior de la sección si llegas desde una sección situada por encima y hacia la parte inferior si llegas desde una sección situada por debajo. Los posibles valores para esta opción son:  `top`, `bottom`, `null`.
 
 - `keyboardScrolling`: (por defecto `true`) Determina si el contenido puede ser navegado usando el teclado.
 
@@ -952,15 +953,14 @@ Sólo disponible en inglés :)
 ¿Deseas crear archivos de distribución de fullpage.js? Lee los [Build Tasks](https://github.com/alvarotrigo/fullPage.js/wiki/Build-tasks)
 
 # Recursos
-- [Wordpress Plugin for Gutenberg](https://alvarotrigo.com/fullPage/wordpress-plugin-gutenberg/)
+- Wordpress Plugin [for Gutenberg](https://alvarotrigo.com/fullPage/wordpress-plugin-gutenberg/) and [for Elementor](https://alvarotrigo.com/fullPage/wordpress-plugin-elementor/).
 - [Template de Wordpress](https://alvarotrigo.com/fullPage/utils/wordpress.html)
 - [Official Vue.js wrapper component](https://github.com/alvarotrigo/vue-fullpage.js)
 - [Official React.js wrapper component](https://github.com/alvarotrigo/react-fullpage)
 - [Official Angular wrapper component](https://github.com/alvarotrigo/angular-fullpage)
 - [Herramienta de animacion de CSS Easing - Matthew Lein](https://matthewlein.com/ceaser/) (útil para definir la opción `easingcss3`)
 - [fullPage.js jsDelivr CDN](https://www.jsdelivr.com/package/npm/fullpage.js)
-- [fullPage.js plugin para October CMS](http://octobercms.com/plugin/freestream-parallax)
-- [fullPage.js wordpress plugin](https://wordpress.org/plugins/wp-fullpage/)
+- [fullPage.js plugin para October CMS](https://github.com/freestream/oc-parallax-plugin)
 - [fullPage.js Angular2 directive](https://github.com/meiblorn/ng2-fullpage)
 - [fullPage.js angular directive](https://github.com/hellsan631/angular-fullpage.js)
 - [fullPage.js ember-cli addon](https://www.npmjs.com/package/ember-cli-fullpagejs)
@@ -971,7 +971,7 @@ Sólo disponible en inglés :)
 ## Quién usa fullPage.js
 
 [![Google](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/google-4.png)](http://www.yourprimer.com/)
-[![Coca-cola](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/cocacola-4.png)](https://www.coca-colacompany.com/annual-review/2017/index.html)
+![Coca-cola](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/cocacola-4.png)
 ![eBay](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/ebay-4.png)
 [![BBC](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/bbc-4.png)](http://www.bbc.co.uk/news/resources/idt-d88680d1-26f2-4863-be95-83298fd01e02)
 ![Sony](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/sony-4.png)
@@ -980,13 +980,13 @@ Sólo disponible en inglés :)
 ![British Airways](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/british-airways-5.png)
 ![McDonalds](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/mcdonalds-6.png)
 ![EA](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/ea-6.png)
-[![Vogue](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/vogue-6.png)](http://www.vogue.fr/chaumet-histoires-de-liens)
+![Vogue](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/vogue-6.png)
 ![Mi](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/mi-6.png)
 
-[![Mercedes](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/mercedes-5.png)](https://www.x-class.com.au/)
+![Mercedes](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/mercedes-5.png)
 [![sym](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/sym-5.png)](http://www.sanyang.com.tw/service/Conception/)
 ![Bugatti](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/bugatti-5.png)
-[![eDarling](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/edarling-5.png)](https://www.edarling.de/)
+![eDarling](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/edarling-5.png)
 ![Ubisoft](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/ubisoft-5.png)
 
 - https://www.coca-colacompany.com/annual-review/2017/index.html
@@ -995,31 +995,20 @@ Sólo disponible en inglés :)
 - http://www.shootinggalleryasia.com/
 - http://medoff.ua/en/
 - http://promo.prestigio.com/grace1/
-- http://www.commoditiesdemystified.info/en/
 - http://torchbrowser.com/
 - http://thekorner.fr/
-- https://www.edarling.de/
-- http://urban-walks.com/
-- http://lingualeo.com/
 - http://charlotteaimes.com/
 - http://www.boxreload.com/
 - http://educationaboveall.org/
 - http://usescribe.com/
 - http://boxx.hk/
-- http://rawmilk.dk/en/
-- http://www.famavolat.com/
 - http://www.sanyang.com.tw/service/Conception/
-- http://www.batzaya.net/
-- http://medissix.com/
 - http://trasmissione-energia.terna.it/
-- http://www.thefoodmovie.com/
 - http://www.villareginateodolinda.it
 - http://www.kesstrio.com
 - http://ded-morozz.kiev.ua/
-- http://themify.me/demo/#theme=fullpane
 - http://dancingroad.com
 - http://www.camanihome.com/
-- https://life2film.com/en/
 
 Puedes encontrar otra lista más extensa [aquí](http://libscore.com/#$.fn.fullpage).
 
